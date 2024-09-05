@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(4, 15, 59);
+}
+body h1{
+    color: snow;
+    font-size: 36px;
+    margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
