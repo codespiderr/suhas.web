@@ -46,9 +46,17 @@ body{
     transform: translateY(-5px);
 }
 
-.innerink{
-    display: flex;
-    background-color: red;
-    margin-top: 10px;
-    width: 100%;
+.innerlink{
+    margin: 2px;
+    width: fit-content;
+    height: fit-content;
+    padding: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: 0.3s;
+}
+
+.innerlink:hover{
+    transform:translateY(-5px);
+    background-color: rgb(78, 16, 133);
 }
