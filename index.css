@@ -1,9 +1,54 @@
 body{
     background-color: rgb(4, 15, 59);
 }
-body h1{
+.container{
+    display:flex;
+}
+.boxtype1{
+    background-color: rgb(9, 39, 137);
+    display: flex;
     color: rgb(233, 233, 233);
-    font-size: 36px;
+    font-size: 24px;
     margin-top: 30px;
+    margin-left: 2%;
+    padding: 1%px;
+    padding-left: 6%;
+    padding-right: 6%;
     font-family: 'Courier New', Courier, monospace;
+    border-radius: 25px;
+    width: fit-content;
+    transition: 0.3s;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.boxtype1:hover{
+    background-color: rgb(13, 52, 183);
+    transform: translateY(-5px);
+
+}
+
+.boxtype2{
+    transition: 0.3s;
+    height: 30%;
+    width: fit-content;
+    margin-top: 30px;
+}
+.boxtype2 img{
+    border-radius: 25px;
+    height: 30%;
+    width: 35%;
+    
+}
+
+.boxtype2:hover{
+    background-color: rgb(13, 52, 183);
+    transform: translateY(-5px);
+}
+
+.innerink{
+    display: flex;
+    background-color: red;
+    margin-top: 10px;
+    width: 100%;
 }
