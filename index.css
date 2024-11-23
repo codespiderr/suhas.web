@@ -62,3 +62,31 @@ background: radial-gradient(circle, rgba(2,0,36,1) 23%, rgba(9,9,121,1) 62%, rgb
     background-color: rgba(58, 58, 58, 0.26);
     border-radius: 25px;
 }
+
+.gamedev{   
+
+    color: rgb(233, 233, 233);
+    font-size: 24px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: none;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 25px;
+    width: fit-content;
+    height: fit-content;
+    transition: 0.3s;
+    margin-right: 5%;
+    text-align: center;
+    text-decoration: none;
+    flex-direction: row;
+}
+
+.gamedev:hover{
+    background-color: rgb(9, 39, 137);
+}
+
